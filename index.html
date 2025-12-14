@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BYGGE KIRKE</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>†</text></svg>">
+
+
+
+<!-- 1. The Adaptive Favicon (Changes color based on system theme) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><style>text{fill:black} @media(prefers-color-scheme:dark){text{fill:white}}</style><text y='.9em' font-size='90'>†</text></svg>">
+
+<!-- 2. The Browser Interface Colors (Changes the address bar color) -->
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#111111">
+
+
 
     <style>
         :root {
